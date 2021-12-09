@@ -1,0 +1,22 @@
+{
+  "name": "responsive-services-cards-dark_light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w ./scss/style.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESaulDJLaguna/responsive-services-cards-dark_light.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESaulDJLaguna/responsive-services-cards-dark_light/issues"
+  },
+  "homepage": "https://github.com/ESaulDJLaguna/responsive-services-cards-dark_light#readme",
+  "dependencies": {
+    "sass": "^1.44.0"
+  }
+}

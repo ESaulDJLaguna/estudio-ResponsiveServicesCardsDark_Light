@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nuestros Servicios</title>
+	<link rel="shortcut icon" href="servicio-de-ambiente-de-pixeles.png" type="image/x-icon">
+	<!-- Font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	<!-- Estilos personalizados -->
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div id="theme-toggler" class="fas fa-moon"></div>
+	<main class="container">
+		<h3 class="title">Nuestros Servicios</h3>
+		<div class="box-container">
+			<div class="box">
+				<span class="number">01</span>
+				<i class="fas fa-code"></i>
+				<h3>Front-end</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, totam perferendis nisi ea laborum aliquam
+					blanditiis ullam quae? Repellendus, delectus.</p>
+			</div>
+			<div class="box">
+				<span class="number">02</span>
+				<i class="fas fa-paint-brush"></i>
+				<h3>Diseño Gráfico</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, totam perferendis nisi ea laborum aliquam
+					blanditiis ullam quae? Repellendus, delectus.</p>
+			</div>
+			<div class="box">
+				<span class="number">03</span>
+				<i class="fas fa-bullhorn"></i>
+				<h3>SEO Marketing</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, totam perferendis nisi ea laborum aliquam
+					blanditiis ullam quae? Repellendus, delectus.</p>
+			</div>
+			<div class="box">
+				<span class="number">04</span>
+				<i class="fas fa-mobile-alt"></i>
+				<h3>Responsive</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, totam perferendis nisi ea laborum aliquam
+					blanditiis ullam quae? Repellendus, delectus.</p>
+			</div>
+			<div class="box">
+				<span class="number">05</span>
+				<i class="fab fa-wordpress"></i>
+				<h3>WordPress</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, totam perferendis nisi ea laborum aliquam
+					blanditiis ullam quae? Repellendus, delectus.</p>
+			</div>
+			<div class="box">
+				<span class="number">06</span>
+				<i class="fas fa-tools"></i>
+				<h3>Desarrollo Web</h3>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, totam perferendis nisi ea laborum aliquam
+					blanditiis ullam quae? Repellendus, delectus.</p>
+			</div>
+		</div>
+	</main>
+
+	<script>
+		let themeToggler = document.querySelector("#theme-toggler");
+
+		themeToggler.onclick = () => {
+			/*
+			* classList es una propiedad de solo lectura que devuelve una colección DOMTokenList en vivo (de elementos actuales) del atributo class del elemento. También puede usarse para manipular la lista de class
+			* toggle() es un método de la interfaz DOMTokenList que elimina un token existente en la lista y regresa false. Si el token NO existe, se agrega y la función regresa true
+			* add() método de la interfaz DOMTokenList que agrega los tokens dados a la lista
+			* remove() método de la interfaz DOMTokenList que remueve los tokens dados de la lista
+			*/
+			if (themeToggler.classList.toggle('fa-sun')) {
+				document.body.classList.add('active');
+			} else {
+				document.body.classList.remove('active');
+			}
+		}
+
+	</script>
+</body>
+
+</html>
