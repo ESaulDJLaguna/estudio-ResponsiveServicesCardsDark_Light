@@ -35,13 +35,13 @@ https://esdjl-responsive-services-cards.netlify.app/
 1. Clonar el repositorio:
 
 ```
-git clone https://github.com/ESaulDJLaguna/responsive-services-cards-dark_light.git
+git clone https://github.com/ESaulDJLaguna/estudio-ResponsiveServicesCardsDark_Light.git
 ```
 
 2. Acceder a la carpeta generada:
 
 ```
-cd responsive-services-cards-dark_light/
+cd estudio-ResponsiveServicesCardsDark_Light/
 ```
 
 3. Instala las dependencias:
